@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 
-import { <%= classify(name) %>Router } from './<%= dasherize(name) %>.routes.ts'
+import { <%= classify(name) %>Router } from './<%= dasherize(name) %>.routes'
 
 @NgModule({
     imports: [
