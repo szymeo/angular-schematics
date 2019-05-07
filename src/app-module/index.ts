@@ -22,6 +22,8 @@ export function appModuleSchematic(options: any): Rule {
             move(movePath),
         ]);
 
+        console.log(tree.get('[#temporary_file#]'))
+
         const rule = mergeWith(templateSource, MergeStrategy.Default)
         return rule(tree, _context);
     };
