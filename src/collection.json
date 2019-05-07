@@ -1,0 +1,15 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "app-module": {
+            "description": "A schematic using a source and a schema to generate new app module (components/, pages/, service and routes.",
+            "factory": "./app-module/index#appModuleSchematic",
+            "schema": "./app-module/schema.json"
+        },
+        "page": {
+            "description": "A schematic using a source and a schema to generate new page.",
+            "factory": "./page/index#pageSchematic",
+            "schema": "./page/schema.json"
+        }
+    }
+}
