@@ -1,15 +1,12 @@
 {
-    "name": "schematics",
-    "version": "0.0.0",
-    "description": "A schematics",
+    "name": "@schematics/sgracki",
+    "version": "1.0.0",
+    "description": "Angular schematics",
     "scripts": {
         "build": "tsc -p tsconfig.json",
-        "test": "npm run build"
+        "test": "yarn build"
     },
-    "keywords": [
-        "schematics"
-    ],
-    "author": "",
+    "author": "Szymon Grącki",
     "license": "MIT",
     "schematics": "./src/collection.json",
     "dependencies": {
