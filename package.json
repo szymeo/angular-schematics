@@ -1,18 +1,22 @@
 {
-    "name": "@schematics/sgracki",
-    "version": "1.0.0",
+    "name": "@sgracki/ng-schematics",
+    "version": "0.0.0",
     "description": "Angular schematics",
+    "main": "./src/collection.json",
     "scripts": {
         "build": "tsc -p tsconfig.json",
         "test": "yarn build"
     },
-    "author": "Szymon Grącki",
+    "author": "Szymon Grącki <dev.sgracki@gmail.com>",
     "license": "MIT",
     "schematics": "./src/collection.json",
     "repository": {
         "type": "git",
         "url": "https://github.com/sgracki/angular-schematics"
     },
+    "keywords": [
+        "schematics"
+    ],
     "homepage": "https://github.com/sgracki/angular-schematics",
     "dependencies": {
         "@angular-devkit/core": "^7.3.8",
