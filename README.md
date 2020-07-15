@@ -15,7 +15,7 @@ and then
 ```bash
 ng g @sgracki/ng-schematics:<schematic-name> <name>
 ```
-where `schematic-name` is either `app-module` or `page`, and name is your desired schematic name
+where `schematic-name` is either `app-module` or `page`, and `name` is your desired schematic name
 
 That's it!
  
